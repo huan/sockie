@@ -1,9 +1,9 @@
 # sockie
 Easy Rx WebSocket Client/Server Management Framework
 
-![Sockie Logo](http://zixia.github.io/sockie/images/scokie.svg)
+![Sockie Logo](http://zixia.github.io/sockie/images/sockie.svg)
 
-> Credit: [pixabay - socks](https://pixabay.com/photo-306249/)
+> Credit: [Clker-Free-Vector-Images @ Pixabay](https://pixabay.com/photo-306249/)
 
 ## Resources
 
