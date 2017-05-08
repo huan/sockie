@@ -3,7 +3,7 @@ Easy Rx WebSocket Client/Server Management Framework
 
 <img alt="Sockie Logo" src="http://zixia.github.io/sockie/images/sockie.svg" width="50%">
 
-> Credit: [Clker-Free-Vector-Images @ Pixabay](https://pixabay.com/photo-306249/)
+> Picture credit: [Clker-Free-Vector-Images @ Pixabay](https://pixabay.com/photo-306249/)
 
 ## Resources
 
