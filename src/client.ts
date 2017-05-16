@@ -2,11 +2,11 @@
  * WebSockets with Angular2 and RxJS - https://medium.com/@lwojciechowski/websockets-with-angular2-and-rxjs-8b6c5be02fac)
  */
 import { Observable } from 'rxjs/Observable'
-import { Observer }   from "rxjs/Observer"
+import { Observer }   from 'rxjs/Observer'
 import { Subject }    from 'rxjs/Subject'
 
-export class Client {
-	private subject: Subject<any>;
+export class SockieClient {
+	private subject: Subject<Object>;
 
   constructor() {
 
@@ -46,7 +46,7 @@ export class Client {
 
 }
 
-export default Client
+export default SockieClient
 
 import {
   Observable,

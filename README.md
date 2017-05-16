@@ -16,6 +16,19 @@ Sockie is design to simplify the Websocket Server/Client API with Reactive Exten
 1. `event` as a Observable
 1. Sockie will always be HOT(Observable).
 1. Always automaticaly reconnect untill you call `complete()` or `error()`
+1. Not support Binary Type
+
+## Example
+
+Talk is cheap, show me the code!
+
+### Server
+
+```ts
+```
+
+### Client
+
 
 ## Resources
 

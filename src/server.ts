@@ -1,31 +1,64 @@
 /**
  * Modeling WebSocket streams with RxJS - http://stackoverflow.com/a/37390611/1123955
  */
-import { 
+import {
   Observable,
   Observer,
   Subject,
-}                     from 'rxjs/Rx'
+}                         from 'rxjs/Rx'
 
-import * as WebSocket from 'ws'
+import {
+  WebSocketSubject,
+  WebSocketSubjectConfig,
+}                         from 'rxjs/observable/dom/WebSocketSubject'
 
-import * as https     from 'https'
+import * as WebSocket     from 'ws'
 
-export class Server {
-  constructor() {
+import * as http          from 'http'
+import * as https         from 'https'
 
+import {
+  Sockie,
+}                         from './sockie'
+
+export interface SockieServerOptoin {
+  url: string,
+}
+
+export interface SockieServerEvent {
+  data:   Object,
+  sock:   Sockie,
+}
+
+export class SockieServer extends Subject<SockieServerEvent> {
+
+  private $connect: Subject<Sockie>
+  public get connect() {
+    return this.$connect.asObservable()
+                        .share()
   }
 
-  create(httpsServer: https.Server) {
+  constructor() {
+    super()
+
+    this.init()
+  }
+
+  init() {
+    this.$connect = new Subject<Sockie>()
+  }
+
+  create(httpServer: https.Server | http.Server) {
     const socket$ = Observable.create(({complete, next}) => {
-      const server = new WebSocket.Server({server: httpsServer})
+      const server = new WebSocket.Server({server: httpServer})
       server.on('connection', next)
       return () => {
         server.close()
         complete()
       }
     })
-  
+
+    // http://stackoverflow.com/a/37390611/1123955
     const socketMessage$ = socket$.flatMap(
       socket => Observable.create(({complete, next}) => {
         socket.on('message', next)
