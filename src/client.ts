@@ -46,8 +46,6 @@ export class SockieClient {
 
 }
 
-export default SockieClient
-
 import {
   Observable,
   Observer,
