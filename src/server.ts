@@ -38,3 +38,6 @@ export class Server {
 }
 
 export default Server
+
+client.error(new Error())
+subClient = client.multiplex('subType')
