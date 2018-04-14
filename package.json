@@ -22,10 +22,16 @@
   "homepage": "https://github.com/zixia/sockie#readme",
   "devDependencies": {
     "@types/node": "^7.0.18",
-    "brolog": "^1.1.16",
-    "rxjs": "^5.3.1",
+    "@types/websocket": "0.0.33",
+    "brolog": "^1.1.18",
+    "rollup": "^0.41.6",
+    "rxjs": "^5.4.0",
     "tap": "^10.3.2",
+    "ts-node": "^3.0.4",
     "tslint": "^5.2.0",
     "typescript": "^2.3.2"
+  },
+  "dependencies": {
+    "websocket": "^1.0.24"
   }
 }
