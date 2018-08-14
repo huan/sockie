@@ -1,4 +1,7 @@
 # sockie
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/zixia/sockie.svg)](https://greenkeeper.io/)
+
 Easy Rx WebSocket Client/Server Management Framework
 
 <img alt="Sockie Logo" src="http://zixia.github.io/sockie/images/sockie.svg" width="50%">
