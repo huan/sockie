@@ -34,23 +34,28 @@ Talk is cheap, show me the code!
 
 ### WebSocket
 
-* [WebSockets - Methods for Real-Time Data Streaming](https://os.alfajango.com/websockets-slides/#/)
-* [RxJS Observerable Reference Document](http://reactivex.io/rxjs/class/es6/Observable.js~Observable.html#static-method-webSocket)
-* [Auto WebSocket reconnection with RxJS](https://gearheart.io/blog/auto-websocket-reconnection-with-rxjs/)
+- [WebSockets - Methods for Real-Time Data Streaming](https://os.alfajango.com/websockets-slides/#/)
+- [RxJS Observerable Reference Document](http://reactivex.io/rxjs/class/es6/Observable.js~Observable.html#static-method-webSocket)
+- [Auto WebSocket reconnection with RxJS](https://gearheart.io/blog/auto-websocket-reconnection-with-rxjs/)
 
 ### RxJS
 
-* [Modeling WebSocket streams with RxJS](http://stackoverflow.com/a/37390611/1123955)
-* [WebSockets with Angular2 and RxJS](https://medium.com/@lwojciechowski/websockets-with-angular2-and-rxjs-8b6c5be02fac)
-* [websocket rxjs streams provided by an injectable service](https://github.com/ohjames/rxjs-websockets)
-* [webSocket-spec.ts](https://github.com/ReactiveX/rxjs/blob/master/spec/observables/dom/webSocket-spec.ts)
-* [WebSocketSubject.ts](https://github.com/ReactiveX/rxjs/blob/master/src/observable/dom/WebSocketSubject.ts)
-* [docs(webSocket): create documentation for the operator](https://github.com/ReactiveX/rxjs/pull/2450/files)
+- [Modeling WebSocket streams with RxJS](http://stackoverflow.com/a/37390611/1123955)
+- [WebSockets with Angular2 and RxJS](https://medium.com/@lwojciechowski/websockets-with-angular2-and-rxjs-8b6c5be02fac)
+- [websocket rxjs streams provided by an injectable service](https://github.com/ohjames/rxjs-websockets)
+- [webSocket-spec.ts](https://github.com/ReactiveX/rxjs/blob/master/spec/observables/dom/webSocket-spec.ts)
+- [WebSocketSubject.ts](https://github.com/ReactiveX/rxjs/blob/master/src/observable/dom/WebSocketSubject.ts)
+- [docs(webSocket): create documentation for the operator](https://github.com/ReactiveX/rxjs/pull/2450/files)
+- [RxJS - Subject](https://rxjs-dev.firebaseapp.com/guide/subject)
+- [RxJS - WebSocketSubject](https://rxjs-dev.firebaseapp.com/api/webSocket/WebSocketSubject)
+- [RxJS - webSocket](https://rxjs-dev.firebaseapp.com/api/webSocket/webSocket)
+- [RxJS - WebSocketSubjectConfig](https://rxjs-dev.firebaseapp.com/api/webSocket/WebSocketSubjectConfig)
+- [The magic of RXJS sharing operators and their differences](https://itnext.io/the-magic-of-rxjs-sharing-operators-and-their-differences-3a03d699d255)
 
 ### Reference
 
-* [600k concurrent websocket connections on AWS using Node.js](https://blog.jayway.com/2015/04/13/600k-concurrent-websocket-connections-on-aws-using-node-js/)
-* [Finding the right Node.js WebSocket implementation](https://medium.com/@denizozger/finding-the-right-node-js-websocket-implementation-b63bfca0539)
-* [Creates a WebSocket Subject with a given URL, protocol and an optional observer for the open event and for close.](https://github.com/Reactive-Extensions/RxJS-DOM/blob/master/doc/operators/fromwebsocket.md)
-* [A more advanced web socket wrapper for RxJS](https://github.com/fikrimuhal/RxSocketSubject)
-* <https://github.com/TigorC/rxjs_websocket/blob/master/client/src/index.ts>
+- [600k concurrent websocket connections on AWS using Node.js](https://blog.jayway.com/2015/04/13/600k-concurrent-websocket-connections-on-aws-using-node-js/)
+- [Finding the right Node.js WebSocket implementation](https://medium.com/@denizozger/finding-the-right-node-js-websocket-implementation-b63bfca0539)
+- [Creates a WebSocket Subject with a given URL, protocol and an optional observer for the open event and for close.](https://github.com/Reactive-Extensions/RxJS-DOM/blob/master/doc/operators/fromwebsocket.md)
+- [A more advanced web socket wrapper for RxJS](https://github.com/fikrimuhal/RxSocketSubject)
+- <https://github.com/TigorC/rxjs_websocket/blob/master/client/src/index.ts>
