@@ -1,4 +1,5 @@
 # sockie
+
 Easy Rx WebSocket Client/Server Management Framework
 
 <img alt="Sockie Logo" src="http://huan.github.io/sockie/images/sockie.svg" width="50%">
@@ -32,6 +33,10 @@ Talk is cheap, show me the code!
 
 ## Resources
 
+### Angular
+
+- [Making Use of WebSockets in Angular — Way Easier Than You Expected](https://medium.com/briebug-blog/making-use-of-websockets-in-angular-way-easier-than-you-expected-25dd0061db1d)
+
 ### WebSocket
 
 - [WebSockets - Methods for Real-Time Data Streaming](https://os.alfajango.com/websockets-slides/#/)
@@ -59,3 +64,15 @@ Talk is cheap, show me the code!
 - [Creates a WebSocket Subject with a given URL, protocol and an optional observer for the open event and for close.](https://github.com/Reactive-Extensions/RxJS-DOM/blob/master/doc/operators/fromwebsocket.md)
 - [A more advanced web socket wrapper for RxJS](https://github.com/fikrimuhal/RxSocketSubject)
 - <https://github.com/TigorC/rxjs_websocket/blob/master/client/src/index.ts>
+
+## Author
+
+[Huan LI](https://github.com/huan) ([李卓桓](http://linkedin.com/in/zixia)) zixia@zixia.net
+
+[![Profile of Huan LI (李卓桓) on StackOverflow](https://stackexchange.com/users/flair/265499.png)](https://stackexchange.com/users/265499)
+
+## Copyright & License
+
+- Code & Docs © 2017-now Huan LI \<zixia@zixia.net\>
+- Code released under the Apache-2.0 License
+- Docs released under Creative Commons
