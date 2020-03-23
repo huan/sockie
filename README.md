@@ -2,6 +2,7 @@
 
 Easy Rx WebSocket Client/Server Management Framework
 
+<!-- markdownlint-disable MD033 -->
 <img alt="Sockie Logo" src="http://huan.github.io/sockie/images/sockie.svg" width="50%">
 
 > Picture credit: [Clker-Free-Vector-Images @ Pixabay](https://pixabay.com/photo-306249/)
