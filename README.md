@@ -43,6 +43,8 @@ Talk is cheap, show me the code!
 - [WebSockets - Methods for Real-Time Data Streaming](https://os.alfajango.com/websockets-slides/#/)
 - [RxJS Observerable Reference Document](http://reactivex.io/rxjs/class/es6/Observable.js~Observable.html#static-method-webSocket)
 - [Auto WebSocket reconnection with RxJS](https://gearheart.io/blog/auto-websocket-reconnection-with-rxjs/)
+- [Simplifying WebSockets in RxJS.](https://itnext.io/simplifying-websockets-in-rxjs-a177b887f3b8)
+- [REAL-TIME IN ANGULAR: A JOURNEY INTO WEBSOCKET AND RXJS](https://javascript-conference.com/blog/real-time-in-angular-a-journey-into-websocket-and-rxjs/)
 
 ### RxJS
 
@@ -57,6 +59,13 @@ Talk is cheap, show me the code!
 - [RxJS - webSocket](https://rxjs-dev.firebaseapp.com/api/webSocket/webSocket)
 - [RxJS - WebSocketSubjectConfig](https://rxjs-dev.firebaseapp.com/api/webSocket/WebSocketSubjectConfig)
 - [The magic of RXJS sharing operators and their differences](https://itnext.io/the-magic-of-rxjs-sharing-operators-and-their-differences-3a03d699d255)
+
+### Redux
+
+- [Building on the duck legacy](https://github.com/alexnm/re-ducks)
+- [Redux Observable Backend - WebSockets](https://github.com/Sawtaytoes/Redux-Observable-Backend/tree/2d561c327421328d64f42dc95c2e24dde5d81bea/packages/websocket)
+- [Scaling Your Redux App with Ducks](https://medium.com/better-programming/scaling-your-redux-app-with-ducks-6115955638be#.4ppptx7oq)
+- [WebSocket Connection & Reconnection with RxJS & Redux Observables](https://techinscribed.com/websocket-connection-reconnection-rxjs-redux-observable/)
 
 ### Reference
 
