@@ -75,6 +75,10 @@ Talk is cheap, show me the code!
 - [A more advanced web socket wrapper for RxJS](https://github.com/fikrimuhal/RxSocketSubject)
 - <https://github.com/TigorC/rxjs_websocket/blob/master/client/src/index.ts>
 
+### Related Projects
+
+- [SocketCluster - Highly scalable realtime framework optimized for async/await](https://socketcluster.io)
+
 ## Author
 
 [Huan LI](https://github.com/huan) ([李卓桓](http://linkedin.com/in/zixia)) zixia@zixia.net
