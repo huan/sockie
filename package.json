@@ -22,7 +22,7 @@
   "homepage": "https://github.com/huan/sockie#readme",
   "devDependencies": {
     "@types/node": "^7.0.18",
-    "@types/websocket": "0.0.33",
+    "@types/websocket": "1.0.0",
     "brolog": "^1.1.18",
     "rollup": "^0.41.6",
     "rxjs": "^5.4.0",
