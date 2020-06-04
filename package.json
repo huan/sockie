@@ -24,7 +24,7 @@
     "@types/node": "^7.0.18",
     "@types/websocket": "1.0.0",
     "brolog": "^1.1.18",
-    "rollup": "^0.41.6",
+    "rollup": "^2.13.1",
     "rxjs": "^6.5.5",
     "tap": "^10.3.2",
     "ts-node": "^8.10.2",
