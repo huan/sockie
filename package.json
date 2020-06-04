@@ -29,7 +29,7 @@
     "tap": "^10.3.2",
     "ts-node": "^8.10.2",
     "tslint": "^5.2.0",
-    "typescript": "^2.3.2"
+    "typescript": "^3.9.3"
   },
   "dependencies": {
     "websocket": "^1.0.24"
